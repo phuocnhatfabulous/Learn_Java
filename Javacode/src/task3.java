@@ -10,12 +10,10 @@ public class task3 {
 		Scanner input = new Scanner(System.in);
 		int[] amount = new int [100]; //Declare arrays 
 		System.out.println("How many siblings are there in family: \t ");
-		int x = input.nextInt();  
+		int x = Integer.parseInt(input.nextLine());  //Type conversion
 		for( int i = 0; i < x ; i++) {
-//			amount[x]++; 
 			System.out.println("who: ");
-			input.nextLine(); 
-			String who = input.parseLine(input.nextLine()); //err
-		}
+			String who = input.nextLine();
+			} 
 	}
 }
