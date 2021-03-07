@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class task2 {
 	//Method function 
 	public static void OperatorValue() {
+		
 		byte z = 127; //Size 1 byte
 		short a = 32767; //Size 2 bytes 
 		int b = 217483674; //Size 4 bytes 
@@ -18,9 +19,11 @@ public class task2 {
 		System.out.println(value);
 	}
 	public static void Iteration() {
+		
 		Scanner input = new Scanner(System.in);
 		System.out.println("How old are you? : ");
 		int age = input.nextInt();
+		
 		do {
 			System.out.println("Verify your age: ");
 			age = input.nextInt();
@@ -28,6 +31,7 @@ public class task2 {
 		while(age > 110);
 	}
 	public static void Iteration2() {
+		
 		//Syntax 1:
 		String[] fruit = {"Banana", "Apple", "Mango", "WaterMelon", "Orange" };
 		for ( String i : fruit ) {
@@ -40,6 +44,7 @@ public class task2 {
 	}
 	
 	public static void ShowConstantsValue() {
+		
 		final float PI = 3.14f ;// declare constants
 		//Or final double PI = 3.14;
 		System.out.println(PI);
