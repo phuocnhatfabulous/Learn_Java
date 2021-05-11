@@ -1,7 +1,7 @@
-[![Build Status](https://vi.wikipedia.org/wiki/Trang_Ch%C3%ADnh)](https://vi.wikipedia.org/wiki/Trang_Ch%C3%ADnh)
-[![Coverage Status](https://coveralls.io/repos/fommil/matrix-toolkits-java/badge.svg?branch=master)](https://coveralls.io/r/fommil/matrix-toolkits-java?branch=master)
+
 
 # Learn_Java language programming
+---------------------------------
 > My name is Phuoc Nhat, I'm junior year.
 
 __This my facebook__:
